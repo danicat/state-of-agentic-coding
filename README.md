@@ -1,6 +1,6 @@
 # State of Agentic Coding
 
-Companion repository for the talk **"State of Agentic Coding"** presented at **Google I/O Extended London 2026** by [Daniela Petruzalek](https://github.com/danicat), Developer Relations Engineer at Google Cloud.
+Companion repository for the talk **"State of Agentic Coding"** presented at **Google I/O Extended London 2026** by [Daniela Petruzalek](https://linkedin.com/in/petruzalek), Developer Relations Engineer at Google Cloud.
 
 ## Overview
 
@@ -22,26 +22,26 @@ The talk explores the progression of human-AI collaboration:
 
 The project is organized into folders representing different tools in the agentic toolbox:
 
-### [01a_prompts](file:///Users/petruzalek/projects/state-of-agentic-coding/01a_prompts)
-Examples of high-fidelity prompts, including a complete specification for building a **Pac-Man clone in Go** using the Ebiten engine.
+### [01a_prompts](./01a_prompts)
+Integration with the **Model Context Protocol (MCP)**, showing how to build and connect custom tool servers to agents using the Go SDK.
 
-### [01b_prompts](file:///Users/petruzalek/projects/state-of-agentic-coding/01b_prompts)
+### [01b_prompts](./01b_prompts)
 Visual prompting and architectural sketches, including the **Speedgrapher 2.0** blogging agent design.
 
-### [02_rules](file:///Users/petruzalek/projects/state-of-agentic-coding/02_rules)
-Demonstrates how project-level rules (e.g., [GEMINI.md](file:///Users/petruzalek/projects/state-of-agentic-coding/02_rules/GEMINI.md)) shape agent behavior. This folder includes the "Zen of Python" as a set of guiding principles for the agent.
+### [02_rules](./02_rules)
+Demonstrates how project-level rules (e.g., [GEMINI.md](./02_rules/GEMINI.md)) shape agent behavior. This folder includes the "Zen of Python" as a set of guiding principles for the agent.
 
-### [03_hooks](file:///Users/petruzalek/projects/state-of-agentic-coding/03_hooks)
+### [03_hooks](./03_hooks)
 Using automated triggers for routine operations, such as resetting the environment or running cleanup scripts.
 
-### [04_subagents](file:///Users/petruzalek/projects/state-of-agentic-coding/04_subagents)
+### [04_subagents](./04_subagents)
 Advanced orchestration patterns. Demonstrates how a root agent can spawn specialized subagents (Engineering Manager, Backend Engineer, Frontend Engineer) to build a hotel booking application.
 
-### [05_skills](file:///Users/petruzalek/projects/state-of-agentic-coding/05_skills)
+### [05_skills](./05_skills)
 Custom capabilities and modular tools that can be dynamically added to an agent's repertoire.
 
-### [06_mcp](file:///Users/petruzalek/projects/state-of-agentic-coding/06_mcp)
-Integration with the **Model Context Protocol (MCP)**, showing how to build and connect custom tool servers to agents using the Go SDK.
+### [06_mcp](./06_mcp)
+Examples of high-fidelity prompts, including a complete specification for building a **Pac-Man clone in Go** using the Ebiten engine.
 
 ---
 
@@ -57,4 +57,4 @@ To explore these examples, we recommend using an agentic-aware IDE or CLI (like 
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](file:///Users/petruzalek/projects/state-of-agentic-coding/LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
