@@ -1,13 +1,13 @@
 {
-  "block-git-reset": {
-    "enabled": true,
+  "safety-plugin-hook": {
+    "enabled": false,
     "PreToolUse": [
       {
         "matcher": "run_command",
         "hooks": [
           {
             "type": "command",
-            "command": "./.agents/block_git_reset.py",
+            "command": "python3 /Users/petruzalek/projects/state-of-agentic-coding/03_hooks/.agents/plugins/safety-plugin/block_git_reset.py",
             "timeout": 10
           }
         ]
