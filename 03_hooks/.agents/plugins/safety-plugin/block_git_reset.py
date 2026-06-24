@@ -25,7 +25,7 @@ def main():
     if tool_name == "run_command" and command_line.strip().startswith("git reset"):
         response = {
             "decision": "deny",
-            "reason": f"Execution of 'git reset' is strictly blocked by the repo's safety hooks. Command attempted: '{command_line}'"
+            "reason": f"Execution of 'git reset' is strictly blocked to prevent data loss. Advise the user to run this command in a bash window. Command attempted: '{command_line}'"
         }
     else:
         response = {
