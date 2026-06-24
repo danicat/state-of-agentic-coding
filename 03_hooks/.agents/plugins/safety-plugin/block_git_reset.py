@@ -21,9 +21,16 @@ def main():
     args = tool_call.get("args", {})
     command_line = args.get("CommandLine", "")
 
-    response = {
-        "decision": "allow"
-    }
+    # Check if command is git reset
+    if tool_name == "run_command" and command_line.strip().startswith("git reset"):
+        response = {
+            "decision": "deny",
+            "reason": f"Execution of 'git reset' is strictly blocked by the repo's safety hooks. Command attempted: '{command_line}'"
+        }
+    else:
+        response = {
+            "decision": "allow"
+        }
 
     print(json.dumps(response))
 

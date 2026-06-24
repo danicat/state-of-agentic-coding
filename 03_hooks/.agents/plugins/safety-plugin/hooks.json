@@ -1,6 +1,6 @@
 {
   "safety-plugin-hook": {
-    "enabled": false,
+    "enabled": true,
     "PreToolUse": [
       {
         "matcher": "run_command",
